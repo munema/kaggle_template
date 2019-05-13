@@ -37,5 +37,5 @@ print("train shape : {} is_nan : {}".format(train.shape, X_train.isnull().any().
 print("X_test shape : {} is_nan : {}".format(X_test.shape, X_test.isnull().any().any()))
 
 if __name__ == '__main__':
-    train.to_feather('./data/input/' + "target_encoding_train" + '.feather')
-    X_test.to_feather('./data/input/' + "target_encoding_test" + '.feather')
+    train.to_feather('./data/input/' + "base_line_train" + '.feather')
+    X_test.to_feather('./data/input/' + "base_line_test" + '.feather')

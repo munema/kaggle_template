@@ -30,7 +30,7 @@
         "warm_start": false
     },
     "loss": "l2",
-    "target_name": "SalePrice",
+    "target_name": "Target",
     "ID_name": "Id",
     "cv": "kfold",
     "kfold": {
