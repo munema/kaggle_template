@@ -65,8 +65,8 @@ def reduce_mem_usage(df, logger=None, level=logging.DEBUG):
 
 #LINEに通知を送る
 def send_line_notification(message):
-    line_token = "9IiQzFYm1yh4erTzQWtrK5rjwo6uSKsWGLDea6rGfVE"  # トークン
-    endpoint = "https://notify-api.line.me/api/notify"
+    line_token = "xxxxxxxxxxxxxxxxxx"  # トークン
+    endpoint = "xxxxxxxxxxxxxxxxxxx"
     message = "\n{}".format(message)
     payload = {'message': message}
     headers = {'Authorization': 'Bearer {}'.format(line_token)}
@@ -74,5 +74,5 @@ def send_line_notification(message):
 
 #スプレッドシートに書き込む
 def write_spreadsheet(*args):
-    endpoint = "https://script.google.com/macros/s/AKfycbw3TvzVeGqvoyz3x6uozQISqp4qTbE_-YlzKZ1bopdpiZdA5_M/exec" #スプレットシート名
+    endpoint = "xxxxxxxxxxxxxxxxxxxxxxx" #スプレットシート名
     requests.post(endpoint, json.dumps(args))
