@@ -1,5 +1,8 @@
 {
     "features": [
+        "one_hot_encoding",
+        "nan_flag",
+        "zero_percent"
     ],
     "lgbm_params": {
         "objective": "regression",
@@ -30,7 +33,7 @@
         "warm_start": false
     },
     "loss": "l2",
-    "target_name": "Target",
+    "target_name": "SalePrice",
     "ID_name": "Id",
     "cv": "kfold",
     "kfold": {

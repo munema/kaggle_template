@@ -6,6 +6,3 @@ docs/site/
 # test cache
 .cache/*
 tests/__pycache__/*
-
-#kaggle code
-{{ cookiecutter.repo_name }}/utils/__init__.py
